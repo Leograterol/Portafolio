@@ -12,7 +12,7 @@ body {
     background-color: #660066;
     position: fixed;
     width: 100vw;
-    z-index: 1;
+    z-index: 3 !important;
 }
 
 .navbar-brand {
@@ -30,6 +30,9 @@ body {
     background-position: center;
     height: 100vh;
     position: relative;
+    overflow: hidden;
+    position: relative;
+    top: 5rem;
 }
 
 #hero-section div {
@@ -63,6 +66,7 @@ body {
     color: #373a3c;
     font-family: "Open Sans";
     line-height: 3;
+    margin-top: 9rem;
 }
 
 /*mi experiencia*/
@@ -96,6 +100,10 @@ body {
 
 #trabajos h1{
     font-size: 52px;
+}
+
+#trabajos h4{
+    color: black;
 }
 
 /*contacto*/
